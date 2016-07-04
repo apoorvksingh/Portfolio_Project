@@ -15,6 +15,9 @@ hr {
   margin-bottom: 20px;
 }
 
+/*
+Defining the Gridbox
+*/
 .grid {
     margin: 0 auto;
     max-width: 900px;
@@ -120,14 +123,15 @@ Styling Grids
     padding-right: 5px;
 }
 
-
+/*
+Media Queries
+*/
 @media only screen and (min-width: 453px) and (max-width: 750px)  {
     .col-4 {
         width: 50%;
         margin-left: auto;
         margin-right: auto;
     }
-
 }
 @media only screen and (max-width: 533px) {
     .col-5 {
@@ -143,7 +147,6 @@ Styling Grids
         display: block;
         text-align: center;
     }
-
 }
 @media only screen and (max-width: 452px)  {
     .col-4 {
@@ -159,5 +162,4 @@ Styling Grids
     .col-12 {
         text-align: center;
     }
-
 }
